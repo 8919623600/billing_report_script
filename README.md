@@ -26,7 +26,7 @@ create or replace procedure demo.test_stored_proc (app_name string)
 BEGIN
 
 EXPORT DATA OPTIONS (
-  url='gs://bucket/folder/*.csv' ,
+  url='gs://bucket/folder/billing_report.csv' ,
    format='CSV' ,
    overwrite=true,
    header=true,
