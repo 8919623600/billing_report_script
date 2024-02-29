@@ -1,0 +1,2 @@
+The below script we can set it on crontab -e by inserting the command
+0 9 * * * /path/biling-report-script.sh
